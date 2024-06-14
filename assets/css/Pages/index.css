@@ -1,0 +1,27 @@
+.main_content img {
+  width: 262px;
+  height: 290px;
+  object-fit: cover;
+}
+.search-all {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.search_name_category {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.search_name_category input {
+  width: 100%;
+  padding: 8px 16px;
+  border: solid 1px #cad4da;
+  border-radius: 4px;
+}
+
+.search_name_category i {
+  font-size: 30px;
+  padding-left: 5px;
+}

@@ -1,0 +1,164 @@
+/* style form */
+
+.form_control_item {
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  border: solid 1px #cad4da;
+  border-radius: 4px;
+}
+
+.form_group label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.form_group {
+  margin-bottom: 16px;
+}
+/* style form */
+
+/* style table */
+
+.style-table {
+  width: 100%;
+  /* giúp các boder gần nhau */
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.style-table thead tr {
+  background-color: rgb(29, 206, 147);
+  color: #ffffff;
+}
+.image_aline {
+  text-align: center;
+}
+.style-table tr td {
+  padding: 16px;
+}
+.style-table tr {
+  border: 1px solid #ced4ca;
+}
+.style-table tbody tr:last-child {
+  border-bottom: solid 2px rgb(29, 206, 147);
+}
+
+.style-table tbody tr:nth-child(even) {
+  background-color: #d7d7d7;
+}
+
+.style-table img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+/* chọn hàng chẵn trong tr */
+/* style table */
+
+/* end table */
+
+.btn_common {
+  padding: 6px 20px;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+}
+.btn_edit {
+  background-color: rgb(108, 108, 244);
+  border-radius: 3px;
+}
+.btn_dangger {
+  background-color: rgb(227, 65, 65);
+  border-radius: 3px;
+}
+/* end table */
+.tital {
+  padding-bottom: 10px;
+}
+.tital h2 {
+  text-align: center;
+}
+.btn_save {
+  padding: 6px 20px;
+  background-color: blueviolet;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
+}
+
+.error {
+  border-color: #dc3545;
+}
+.error_message {
+  font-style: italic;
+  color: #dc3545;
+  margin-top: 3px;
+}
+.btn_category_save {
+  border-radius: 3px;
+  background-color: rgb(123, 16, 169);
+}
+
+.form-group-radio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form-group-radio label {
+  margin-right: 50px;
+}
+
+.form-group-radio input {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+.form-group_password {
+  position: relative;
+}
+.form-group_password i {
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  /* transform: translate(-50%, -50%); */
+}
+.form-group_password i:hover {
+  cursor: pointer;
+}
+
+.form-group_error i {
+  top: calc(50% - 12px);
+}
+
+/* css cho phần tìm kiếm  */
+.search-all {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search_name_category {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.search_name_category input {
+  width: 100%;
+  padding: 8px 16px;
+  border: solid 1px #cad4da;
+  border-radius: 4px;
+}
+
+.search_name_category i {
+  font-size: 30px;
+  padding-left: 5px;
+}
+
+.card-header h3 {
+  text-align: center;
+}
+.list-user_manager {
+  text-align: center;
+}
+
+.hide {
+}

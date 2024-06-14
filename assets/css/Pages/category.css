@@ -1,0 +1,13 @@
+.widget_categories li a::before,
+.widget_archive li a:before {
+  content: "";
+}
+
+.widget_categories .active {
+  color: rgb(255, 50, 77);
+}
+.main_content img {
+  width: 262px;
+  height: 290px;
+  object-fit: cover;
+}
